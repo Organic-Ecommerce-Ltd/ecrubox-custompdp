@@ -1,0 +1,30 @@
+{
+    "name": "ecrubox/pdptheme",
+    "description": "N/A",
+    "config": {
+        "sort-packages": true
+    },
+     "version": "1.0.0",
+    "require": {
+        "php": "^7||^8",
+        "magento/framework": "*",
+        "ecrubox/javascript": "*"
+    },
+    "type": "magento2-theme",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ]
+    },
+    "repositories": {
+        "ecrubox/javascript": { 
+            "type": "git",
+            "url": "https://github.com/Organic-Ecommerce-Ltd/ecrubox-javascript.git"
+        }
+  
+    }
+}
